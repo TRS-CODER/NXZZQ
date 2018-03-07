@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>destVC</key>
+		<string>NXHomeController</string>
+		<key>image</key>
+		<string>tabbar_1</string>
+		<key>imageSelected</key>
+		<string>tabbar_1_s</string>
+		<key>title</key>
+		<string>首页</string>
+	</dict>
+	<dict>
+		<key>destVC</key>
+		<string>NXGovController</string>
+		<key>image</key>
+		<string>tabbar_2</string>
+		<key>imageSelected</key>
+		<string>tabbar_2_s</string>
+		<key>title</key>
+		<string>区政府</string>
+	</dict>
+	<dict>
+		<key>destVC</key>
+		<string>NXAffairController</string>
+		<key>image</key>
+		<string>tabbar_3</string>
+		<key>imageSelected</key>
+		<string>tabbar_3_s</string>
+		<key>title</key>
+		<string>网上办事</string>
+	</dict>
+</array>
+</plist>

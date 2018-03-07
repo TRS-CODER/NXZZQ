@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NXToolbar" customModule="中国·宁夏" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="81"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMn-ak-KXT">
+                    <rect key="frame" x="0.0" y="0.5" width="174.5" height="80"/>
+                    <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="toolbar_collect"/>
+                    <state key="selected" image="toolbar_collected"/>
+                    <connections>
+                        <action selector="toolbarDidClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="X9c-9F-SLN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5w-qu-ihh">
+                    <rect key="frame" x="175.5" y="0.5" width="174.5" height="80"/>
+                    <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="toolbar_share"/>
+                    <connections>
+                        <action selector="toolbarDidClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="YCp-xv-hqG"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7R-Sx-GwB">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="0.5"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Kyw-aO-1my"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRn-7L-Ugz">
+                    <rect key="frame" x="0.0" y="80.5" width="350" height="0.5"/>
+                    <color key="backgroundColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="2HQ-Eg-UbX"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.5" id="vzF-EE-yGr"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VrX-w5-acL">
+                    <rect key="frame" x="174.5" y="0.5" width="1" height="80"/>
+                    <color key="backgroundColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Rq1-GA-4BR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tRn-7L-Ugz" firstAttribute="top" secondItem="UMn-ak-KXT" secondAttribute="bottom" id="3DJ-dg-HZz"/>
+                <constraint firstItem="UMn-ak-KXT" firstAttribute="top" secondItem="A7R-Sx-GwB" secondAttribute="bottom" id="3Hc-os-dWM"/>
+                <constraint firstItem="N5w-qu-ihh" firstAttribute="top" secondItem="A7R-Sx-GwB" secondAttribute="bottom" id="3Xb-yU-d4U"/>
+                <constraint firstItem="tRn-7L-Ugz" firstAttribute="top" secondItem="VrX-w5-acL" secondAttribute="bottom" id="D9N-kH-OAb"/>
+                <constraint firstItem="N5w-qu-ihh" firstAttribute="leading" secondItem="VrX-w5-acL" secondAttribute="trailing" id="Ddy-ja-Zb4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="A7R-Sx-GwB" secondAttribute="trailing" id="GO7-Es-kUB"/>
+                <constraint firstItem="tRn-7L-Ugz" firstAttribute="top" secondItem="N5w-qu-ihh" secondAttribute="bottom" id="Pgn-iu-1dv"/>
+                <constraint firstItem="A7R-Sx-GwB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="TbL-EN-ajx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tRn-7L-Ugz" secondAttribute="trailing" id="Vjr-F6-NBG"/>
+                <constraint firstItem="A7R-Sx-GwB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XsZ-bX-RH6"/>
+                <constraint firstAttribute="bottom" secondItem="tRn-7L-Ugz" secondAttribute="bottom" id="cgf-1D-0yx"/>
+                <constraint firstItem="VrX-w5-acL" firstAttribute="leading" secondItem="UMn-ak-KXT" secondAttribute="trailing" id="dCR-62-kJp"/>
+                <constraint firstItem="VrX-w5-acL" firstAttribute="top" secondItem="A7R-Sx-GwB" secondAttribute="bottom" id="fY4-CI-yew"/>
+                <constraint firstItem="VrX-w5-acL" firstAttribute="leading" secondItem="UMn-ak-KXT" secondAttribute="trailing" id="hfh-TR-NXk"/>
+                <constraint firstItem="N5w-qu-ihh" firstAttribute="leading" secondItem="VrX-w5-acL" secondAttribute="trailing" id="hfz-IK-12n"/>
+                <constraint firstItem="tRn-7L-Ugz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="onv-gt-ggA"/>
+                <constraint firstItem="UMn-ak-KXT" firstAttribute="width" secondItem="N5w-qu-ihh" secondAttribute="width" id="psY-Q4-cnO"/>
+                <constraint firstItem="UMn-ak-KXT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sV8-K0-6wU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="N5w-qu-ihh" secondAttribute="trailing" id="tDX-Yb-rdo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="collectBtn" destination="UMn-ak-KXT" id="AVF-pH-QhG"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="-230.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="toolbar_collect" width="26" height="26"/>
+        <image name="toolbar_collected" width="26" height="26"/>
+        <image name="toolbar_share" width="26" height="26"/>
+    </resources>
+</document>
