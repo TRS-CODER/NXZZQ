@@ -87,6 +87,7 @@
 		78F33E092027ED00003B9D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F33E082027ED00003B9D83 /* Assets.xcassets */; };
 		78FB6947203FA9C400870E2E /* NXCommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB6946203FA9C400870E2E /* NXCommonModel.swift */; };
 		78FB694F203FF40400870E2E /* TransformToTreeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB694E203FF40400870E2E /* TransformToTreeable.swift */; };
+		793B0DE4204FC3EC0020A5E1 /* NXTESTXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B0DE3204FC3EC0020A5E1 /* NXTESTXXViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,6 +174,7 @@
 		78F33E0D2027ED00003B9D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FB6946203FA9C400870E2E /* NXCommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXCommonModel.swift; sourceTree = "<group>"; };
 		78FB694E203FF40400870E2E /* TransformToTreeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformToTreeable.swift; sourceTree = "<group>"; };
+		793B0DE3204FC3EC0020A5E1 /* NXTESTXXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXTESTXXViewController.swift; sourceTree = "<group>"; };
 		D146654104B645A5208110C8 /* Pods-RX宁夏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RX宁夏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RX宁夏/Pods-RX宁夏.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -585,6 +587,7 @@
 				78C61358202AD9F300115780 /* NXCommon.swift */,
 				78F33E082027ED00003B9D83 /* Assets.xcassets */,
 				78F33E0D2027ED00003B9D83 /* Info.plist */,
+				793B0DE3204FC3EC0020A5E1 /* NXTESTXXViewController.swift */,
 			);
 			path = "RX宁夏";
 			sourceTree = "<group>";
@@ -842,6 +845,7 @@
 				78419CB42028493A002E093A /* YDFixTabBar.swift in Sources */,
 				78C61361202AF95600115780 /* YDViewModelType.swift in Sources */,
 				78599D1C20416DF700E06DE7 /* FPS.swift in Sources */,
+				793B0DE4204FC3EC0020A5E1 /* NXTESTXXViewController.swift in Sources */,
 				7838DD9620283CA4005FF943 /* UIView+UIViewController.swift in Sources */,
 				7897CF3C204E915B006F6546 /* SNSettingWebFontView.swift in Sources */,
 				78017FEA204509E20010BC1F /* YDRightImageCell.swift in Sources */,
